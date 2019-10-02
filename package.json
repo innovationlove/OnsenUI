@@ -16,9 +16,7 @@
     "css",
     "css-components-src",
     "js",
-    "esm",
-    "bindings",
-    "gulpfile.babel.js"
+    "esm"
   ],
   "repository": {
     "type": "git",
