@@ -10,7 +10,7 @@
     "test": "gulp test --disable-warnings",
     "test:skip-build": "gulp test --disable-warnings --skip-build",
     "postinstall": "npm run build",
-    "prepare": "npm install"
+    "prepare": "npm install && npm install eco"
   },
   "main": "js/onsenui.js",
   "typings": "js/onsenui.d.ts",
