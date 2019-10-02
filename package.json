@@ -131,7 +131,8 @@
     "wdio-jasmine-framework": "^0.3.8",
     "webdriverio": "^4.4.0",
     "eco": "^1.1.0-rc-3",
-    "babel-core" : "6"
+    "babel-core" : "6",
+    "@onsenui/ancss": "^1.0.0"
   },
   "dependencies": {
     "@onsenui/custom-elements": "1.0.0",
