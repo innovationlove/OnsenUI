@@ -9,7 +9,8 @@
     "dev": "gulp serve --css --core",
     "test": "gulp test --disable-warnings",
     "test:skip-build": "gulp test --disable-warnings --skip-build",
-    "install": "npm install && npm install eco && npm install babel-core@6 "
+    "prepare": "npm install eco && npm install babel-core@6",
+    "install": "npm run build"
   },
   "main": "js/onsenui.js",
   "typings": "js/onsenui.d.ts",
