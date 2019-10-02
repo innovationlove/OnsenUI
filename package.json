@@ -4,12 +4,10 @@
   "description": "HTML5 Mobile Framework & UI Components",
   "private": false,
   "scripts": {
-    "gulp": "gulp",
     "build": "(cd bindings/angular1 && yarn install)  && gulp build",
     "dev": "gulp serve --css --core",
     "test": "gulp test --disable-warnings",
-    "test:skip-build": "gulp test --disable-warnings --skip-build",
-    "prepare": "npm run build"
+    "test:skip-build": "gulp test --disable-warnings --skip-build"
   },
   "main": "js/onsenui.js",
   "typings": "js/onsenui.d.ts",
@@ -129,12 +127,7 @@
     "uglify-js": "^3.1.8",
     "wcdoc": "0.1.19",
     "wdio-jasmine-framework": "^0.3.8",
-    "webdriverio": "^4.4.0",
-    "eco": "^1.1.0-rc-3",
-    "babel-core" : "6",
-    "@onsenui/ancss": "^1.0.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-reporter": "^6.0.1"
+    "webdriverio": "^4.4.0"
   },
   "dependencies": {
     "@onsenui/custom-elements": "1.0.0",
