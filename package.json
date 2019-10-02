@@ -9,7 +9,7 @@
     "dev": "gulp serve --css --core",
     "test": "gulp test --disable-warnings",
     "test:skip-build": "gulp test --disable-warnings --skip-build",
-    "prepare": "npm install"
+    "prepare": "npm run build"
   },
   "main": "js/onsenui.js",
   "typings": "js/onsenui.d.ts",
