@@ -1,6 +1,6 @@
 {
   "name": "onsenui",
-  "version": "2.10.8",
+  "version": "2.10.10",
   "description": "HTML5 Mobile Framework & UI Components",
   "private": false,
   "scripts": {
@@ -18,7 +18,8 @@
     "css-components-src",
     "js",
     "esm",
-    "bindings"
+    "bindings",
+    "gulpfile.babel.js"
   ],
   "repository": {
     "type": "git",
