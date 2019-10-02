@@ -16,7 +16,8 @@
     "css",
     "css-components-src",
     "js",
-    "esm"
+    "esm",
+    "bindings"
   ],
   "repository": {
     "type": "git",
