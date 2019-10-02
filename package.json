@@ -1,6 +1,6 @@
 {
-  "name": "onsenui",
-  "version": "2.10.8",
+  "name": "onsenui-ilove",
+  "version": "2.10.10",
   "description": "HTML5 Mobile Framework & UI Components",
   "private": false,
   "scripts": {
@@ -16,9 +16,7 @@
     "css",
     "css-components-src",
     "js",
-    "esm",
-    "*js",
-    "bindings"
+    "esm"
   ],
   "repository": {
     "type": "git",
@@ -84,7 +82,7 @@
     "dateformat": "^3.0.2",
     "eslint": "^4.10.0",
     "event-stream": "3.3.4",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^7.0.0",
     "gulp-clean": "^0.3.1",
